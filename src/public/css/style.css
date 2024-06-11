@@ -1,0 +1,90 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+form {
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 10px 0px 10px;
+    border: 1px solid gray;
+}
+
+input {
+    width: 94%;
+    height: 40px;
+    margin: 10px 3%;
+    padding:0px 10px;
+}
+
+input[type="submit"] {
+    background-color: #3483fa;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1672fd;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.blueLink {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 3%;
+    line-height: 20px;
+}
+
+#mensajes {
+    width: 100%;
+    line-height: center;
+}
+
+/* Estilos para pantallas grandes (escritorio) */
+@media screen and (min-width: 1024px) {
+    form {
+        width: 45%;
+    }
+}
+
+/* Estilos para tabletas */
+@media screen and (max-width: 1023px) {
+    form {
+        width: 65%;
+    }
+}
+
+/* Estilos para teléfonos móviles */
+@media screen and (max-width: 767px) {
+    form {
+        width: 100%;
+    }
+
+}
